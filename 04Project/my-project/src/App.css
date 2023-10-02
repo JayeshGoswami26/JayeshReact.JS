@@ -1,0 +1,20 @@
+
+.box1{
+  display: flex;
+  justify-content: center;
+  align-items:flex-end;
+}
+/*  bg-[image:{ urlLink }]  */
+/*  style={{backgroundImage: `url(${urlLink})`}}  
+
+            <button className='button 2 shadow-md p-8 m-10 bg-orange-200 rounded-md'>2</button>
+  
+            <button className='button 3 shadow-md p-8 m-10 bg-cyan-600 rounded-md'>3</button>
+  
+            <button className='button 4 shadow-md p-8 m-10 bg-violet-400 rounded-md'>4</button>
+  
+            <button className='button 5 shadow-md p-8 m-10 bg-sky-600 rounded-md'>5</button>
+  
+            <button className='button 6 shadow-md p-8 m-10 bg-red-400 rounded-md'>6</button>
+
+*/
