@@ -1,0 +1,32 @@
+.divHOVER{
+    transition: all ease-in-out 1s;
+}
+
+.divHOVER:hover{
+    box-shadow: none;
+}
+.copy{
+    background-color: rgba(128, 183, 255, 0.722);
+}
+.box-bg{
+    background-color: rgba(128, 183, 255, 0.722);
+}
+.box-bg:hover {
+    background-color: rgb(204, 216, 254);
+}
+.input{
+    -webkit-appearance: none !important;
+    background-color: rgb(184, 216, 244);
+    border-radius: 10px;
+    height:10px;
+    accent-color: rgb(0, 68, 136);
+} 
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: #6180cd;
+    cursor: ew-resize;
+    transition: background 1s ease-in-out;
+  }
