@@ -1,20 +1,3 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-body{
-    margin: 0%;
-    padding: 0%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url(../public/image/img-6.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.bg-box{
-    width: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.body{
+  background-image: url(../public/image/img-7.jpg);
 }

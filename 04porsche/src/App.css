@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap');
+/* HEADER */
+.header{
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(90, 97, 106, 0.432) 0px 20px 30px -10px;
+}
+
+
+/* CSS */
+.button-89 {
+  --b: 3px;   /* border thickness */
+  --s: .45em; /* size of the corner */
+  --color: #373B44;
+  
+  padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+  color: var(--color);
+  --_p: var(--s);
+  background:
+    conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
+    var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+  transition: .3s linear, color 0s, background-color 0s;
+  outline: var(--b) solid #0000;
+  outline-offset: .6em;
+  font-size: 16px;
+  animation: ShowContent ease-in-out 0.5s 1 forwards;
+  border: 0;
+
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-89:hover,
+.button-89:focus-visible{
+  --_p: 0px;
+  outline-color: var(--color);
+  outline-offset: .05em;
+}
+
+.button-89:active {
+  background: var(--color);
+  color: #fff;
+}
+
+
+.logo-2{
+  background-image: url(./assets/DEV-IMG/IMG-14.png);
+  width: 150px;
+  margin: 10px;
+  height: 50%;
+  animation: ShowContent ease-in-out 0.5s 1 forwards;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+
+/* HERO */
+.TheContainer{
+     width: 100%;
+     padding: 50px;
+     /* box-shadow: 0 30px 50px rgb(134, 134, 134); */
+     box-shadow: inset 0px 0px 10px rgba(0,0,0,0.5);
+}
+
+.car-1{
+  background-image: url(./assets/DEV-IMG/CARS/IMG-13.png);
+}
+.car-2{
+  background-image: url(./assets/DEV-IMG/911.png);
+}
+.car-3{
+  background-image: url(./assets/DEV-IMG/CARS/IMG-18.png);
+
+}
+.car-4{
+  background-image: url(./assets/DEV-IMG/CARS/IMG-19.png);
+
+}
+.car-5{
+  background-image: url(./assets/DEV-IMG/CARS/IMG-21.png);
+}
+
+.TheItem{
+  background-color: white;
+  width: 200px;
+  height: 200px;
+  background-position: 50% 50%;
+  display: inline-block;
+  transition: 0.5s ease-in-out;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 30px 50px rgb(100, 100, 100);
+}
+.TheItem:nth-child(1){
+  padding: 100px;
+  border-radius: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: none;
+  animation: ShowContent ease-in-out 0.5s 1 forwards;
+}
+.TheItem:nth-child(2){
+  display: none;
+}
+.TheItem:nth-child(3){
+  display: none;
+}
+.TheItem:nth-child(4){
+  display: none;
+}
+.TheItem:nth-child(5){
+  display: none;
+}
+.TheItem:nth-child(n+6){
+  display: none;
+  opacity: 0;
+}
+.TheItem .TheContent{
+  width: 300px;
+  text-align: left;
+  padding: 0;
+  color: rgb(0, 0, 0);
+  transform: translate(0,-50%);
+  display: none;
+}
+.TheItem:nth-child(1) .TheContent{
+     display: block;
+     z-index: 1111111;
+     animation: ShowContent ease-in-out 1s 1 forwards;
+
+}
+.TheName{
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+  opacity: 0;
+  animation: ShowContent ease-in-out 1s 1 forwards;
+}
+.TheText{
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 900;
+  margin: 20px 0px;
+  opacity: 0; 
+  animation: ShowContent ease-in-out 1s 1 forwards;
+}
+.TheButton{
+   z-index: 2222222222222;
+   padding: 20px;
+   text-align: center;
+   width: 100%;
+}
+.TheButton button{
+  margin: 10px;
+}
+/* <!-- HTML !--> */
+/* <button class="button-64" role="button"><span class="text">Button 64</span></button> */
+.button-64 {
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+  animation: ShowContent ease-in-out 1s 1 forwards;
+  transition: ease-in-out 0.5s;
+}
+
+.button-64:hover {
+  outline: 0;
+  background: none;
+  color: black;
+}
+
+@media (min-width: 768px) {
+  .button-64 {
+    font-size: 24px;
+    min-width: 196px;
+  }
+} 
+
+@keyframes ShowContent{
+  from{
+    opacity: 0;
+    transform: translate(0,100px);
+    filter: blur(33px);
+  }
+  to{
+    opacity: 1;
+    transform: translate(0,0);
+    filter: blur(0);
+  }
+}
+
+
+
+
+/* FOOTER */
+.OptionButton{
+  background-image: url(./assets/down-arrow.png);
+  width: 30px;
+  height: 30px;
+  background-size: contain;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.OptionDropDown{
+  padding: 10px;
+  padding-left: 10%;
+  background-color: rgba(161, 163, 163, 0.198);
+  width: 20%;
+}
+.line{
+  margin: 0px 20px 0px 20px;
+}
+.FooterLinks:hover{
+  color: red;
+  transition: ease-in-out 0.5s;
+}
