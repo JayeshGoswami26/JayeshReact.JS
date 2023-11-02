@@ -1,9 +1,67 @@
-<mxfile host="app.diagrams.net" modified="2023-11-02T11:17:47.809Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.76" version="22.0.8" etag="TuammQOBCsPjrFMNdwf-" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-02T15:32:29.525Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.76" etag="xwWN-0Y1IHUL4jcwW21Z" version="22.0.8" type="github">
   <diagram name="Page-1" id="pCOgJ8LygC6GWAE1lKVv">
-    <mxGraphModel>
+    <mxGraphModel dx="2281" dy="1913" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="TGExNI-lx2czzK55rZpK-8" value="THIRD SLIDER" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="960" y="120" width="730" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="TGExNI-lx2czzK55rZpK-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="-10" width="950" height="630" as="geometry" />
+        </mxCell>
+        <mxCell id="TGExNI-lx2czzK55rZpK-16" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="20" y="50" width="820" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="TGExNI-lx2czzK55rZpK-3" value="SECOUND SLIDER" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="520" y="120" width="730" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="TGExNI-lx2czzK55rZpK-2" value="SLIDER BOX" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="770" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="TGExNI-lx2czzK55rZpK-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.588;exitY=-0.001;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="TGExNI-lx2czzK55rZpK-3" target="TGExNI-lx2czzK55rZpK-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="820" y="210" as="sourcePoint" />
+            <mxPoint x="860" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TGExNI-lx2czzK55rZpK-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TGExNI-lx2czzK55rZpK-6" target="TGExNI-lx2czzK55rZpK-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="85" y="470" />
+              <mxPoint x="335" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TGExNI-lx2czzK55rZpK-6" value="BUTTONS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="212.5" width="90" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="TGExNI-lx2czzK55rZpK-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TGExNI-lx2czzK55rZpK-7" target="TGExNI-lx2czzK55rZpK-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="745" y="470" />
+              <mxPoint x="335" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TGExNI-lx2czzK55rZpK-7" value="BUTTONS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="197.5" width="90" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="TGExNI-lx2czzK55rZpK-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.588;exitY=-0.001;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1404.5" y="120" as="sourcePoint" />
+            <mxPoint x="1245.5" y="217" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TGExNI-lx2czzK55rZpK-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TGExNI-lx2czzK55rZpK-10" target="TGExNI-lx2czzK55rZpK-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TGExNI-lx2czzK55rZpK-10" value="ONCLICK =&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6F0000;fillColor=#a20025;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="290" y="535" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TGExNI-lx2czzK55rZpK-11" value="SLIDER CHNAGE&amp;nbsp;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="445" y="510" width="275" height="190" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
