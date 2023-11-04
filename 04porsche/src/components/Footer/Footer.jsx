@@ -20,29 +20,28 @@ function Footer() {
       <div className="Footer p-5 bg-slate-800 w-full text-orange-100">
           <div className="">
             <div className="p-5 ">Change Country/Region:</div>
-            <div className=" cursor-pointer p-5 text-xl"  >
-              Select Country/Region <button className='OptionButton' onClick={showButtons}></button>
-              <div id='BUTTON' className="rounded-xl hidden text-base OptionDropDown">
-                <div className=""> ASIA </div>
-                <div className=""> AFRICA </div>
-                <div className=""> NORTH AMERICA </div>
-                <div className=""> SOUTH AMERICA </div>
-                <div className=""> ANTARCTICA </div>
-                <div className=""> EUROPE </div>
-                <div className=""> AUSTRALIA </div>
+            <div className="p-5 text-xl"  >
+              Select Country/Region <button className='OptionButton w-8 h-8 bg-contain p-3 ml-3' onClick={showButtons}></button>
+              <div id='BUTTON' className="rounded-xl hidden text-base OptionDropDown p-3 pl-8 w-1/4">
+                <div className=" hover:bg-slate-200 transition-all hover:text-black cursor-pointer"> ASIA </div>
+                <div className=" hover:bg-slate-200 transition-all hover:text-black cursor-pointer"> AFRICA </div>
+                <div className=" hover:bg-slate-200 transition-all hover:text-black cursor-pointer"> NORTH AMERICA </div>
+                <div className=" hover:bg-slate-200 transition-all hover:text-black cursor-pointer"> SOUTH AMERICA </div>
+                <div className=" hover:bg-slate-200 transition-all hover:text-black cursor-pointer"> ANTARCTICA </div>
+                <div className=" hover:bg-slate-200 transition-all hover:text-black cursor-pointer"> EUROPE </div>
+                <div className=" hover:bg-slate-200 transition-all hover:text-black cursor-pointer"> AUSTRALIA </div>
               </div>
             </div>
 
             <hr className='line'/>
 
             <div className="p-5">© 2023 Porsche India - SKODA AUTO Volkswagen India Private Limited - India. 
-              <a href="#" className='FooterLinks'> Legal notice. </a>
-              <a href="#" className='FooterLinks'>Cookie & Privacy Policy. </a>
-              <a href="#" className='FooterLinks'>Corporate Governance. </a>
-              <a href="#" className='FooterLinks'></a>
-              <a href="#" className='FooterLinks'>Open Source Software Notice. </a>
-              <a href="#" className='FooterLinks'>Whistleblower System. </a>
-              <a href="#" className='FooterLinks'>Business and Human Rights. </a>
+              <a href="https://www.porsche.com/middle-east/_india_/legal-notice/" className='FooterLinks'> Legal notice. </a>
+              <a href="https://www.porsche.com/middle-east/_india_/aboutporsche/importers/cookie-privacy-policy/" className='FooterLinks'>Cookie & Privacy Policy. </a>
+              <a href="https://www.porsche.com/middle-east/_india_/corporategovernance/" className='FooterLinks'>Corporate Governance. </a>
+              <a href="https://www.porsche.com/licenses" className='FooterLinks'>Open Source Software Notice. </a>
+              <a href="https://www.porsche.com/middle-east/_india_/aboutporsche/overview/compliance/whistleblower-system/" className='FooterLinks'>Whistleblower System. </a>
+              <a href="https://www.porsche.com/middle-east/_india_/human-rights/" className='FooterLinks'>Business and Human Rights. </a>
    </div>
         </div>
       </div>
