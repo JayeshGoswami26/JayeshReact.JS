@@ -14,7 +14,7 @@ function TodoInput() {
              }
           });
         });
-    
+     
         // Start observing the target element
         if (elementRef.current) {
           observer.observe(elementRef.current);
