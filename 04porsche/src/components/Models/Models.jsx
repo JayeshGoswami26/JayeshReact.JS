@@ -37,28 +37,6 @@ function Models() {
             <div className="pt-6 text-5xl" data-swiper-parallax="-5000">It’s always cool to be seen</div>
           </div>
         </SwiperSlide>
-        {/* <SwiperSlide className='text-center SliderHeights text-white text-4xl animationShowContent' >
-          <div className="flex justify-center gap-32 bottom-14 absolute left-10" data-swiper-parallax="-300">
-            <div className="font-bold text-center pl-5 ">
-              <img src="https://i.ibb.co/TPWHnd7/energetic.png" alt="energetic" className='w-9 h-9 text-center ml-28' />
-              386KW/525PS
-              <div className="text-2xl font-thin JapanFont">Power (KW)/Power (PS)</div>
-            </div>
-
-            <div className="font-bold text-center pl-5 " data-swiper-parallax="-3000">
-              <img src="https://i.ibb.co/2FTTDwr/performance.png" alt="performance" className='w-9 h-9 text-center ml-24' />
-                
-                3,2 s
-                <div className="text-2xl font-thin JapanFont">Acceleration 0-100 km/h</div>
-            </div>
-
-            <div className="font-bold text-center pl-5 " data-swiper-parallax="-6000">
-              <img src="https://i.ibb.co/qDyKsHK/stopwatch.png" alt="stopwatch" className='w-9 h-9 text-center ml-14' />
-              296 Km/h
-              <div className="text-2xl font-thin JapanFont">Top Speed</div>
-            </div>
-          </div>
-        </SwiperSlide> */}
         <SwiperSlide className='text-center animationShowContent SliderHeights text-gray-300 text-4xl' >
           <div className="flex justify-center gap-32 top-14 absolute right-10" data-swiper-parallax="-300">
             <div className="font-bold text-center pl-5 ">
@@ -260,7 +238,46 @@ function Models() {
           </div>
         </SwiperSlide>
       </Swiper>
+
+      <div className='TheThirdBox bg-gray-300 animationShowContent'>
+          <div className="TheModelBox1 grid grid-cols-2">
+                <div className="TheModelCar1 text-white h-60 bg-cover bg-center bg-no-repeat">
+                    <button class="button-57" role="button">
+                        <span class="text">THE 911</span>
+                        <span> BUY NOW </span>
+                    </button>
+                </div>
+                <div className="TheModelCar2 text-white h-60 bg-cover bg-no-repeat bg-top">
+                    <button class="button-57" role="button">
+                        <span class="text"> PANAMERA 4 </span>
+                        <span> BUY NOW </span>
+                    </button>
+                </div>
+                <div className="TheModelCar3 text-white h-60 bg-cover bg-no-repeat">
+                    <button class="button-57" role="button">
+                        <span class="text">THE PANAMERA </span>
+                        <span> BUY NOW </span>
+                    </button>
+                </div>
+                <div className="TheModelCar4 text-white h-60 bg-cover bg-no-repeat">
+                    <button class="button-57" role="button">
+                        <span class="text">TAYCAN</span>
+                        <span> BUY NOW </span>
+                    </button>
+                </div>
+          </div>
+          <div className="TheModelBox2">
+                <div className="TheModelCar5 text-white h-96 bg-cover bg-no-repeat bg-center">
+                <button class="button-57" role="button">
+                        <span class="text">THE 911 GT3 rs</span>
+                        <span> BUY NOW </span>
+                    </button>
+                </div>
+          </div>
+      </div>
+
    </>
+   
 
   )
 }
