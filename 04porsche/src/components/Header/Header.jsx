@@ -6,21 +6,6 @@ import {Link, NavLink} from 'react-router-dom'
 
 function Header() {
   return (
-    // <>
-    //   <div className="header p-7 relative bg-white shadow-2xl">
-    //     {/* <div className=" logo-2 absolute p-3 cursor-pointer m-3 h-1/2 bg-cover bg-no-repeat bg-center w-40"></div> */}
-    //     <div className="">
-    //       <Link to= "/" className='logo-2 absolute w-40 cursor-pointer m-3 h-1/2 bg-cover bg-no-repeat bg-center'>
-    //       </Link>
-    //     </div>
-    //     <div className=" text-center">
-    //         <Link to= "/" class='button-89 m-5' role="button"> HOME </Link>
-    //         <Link to= "/Models" class='button-89 m-5' role="button"> MODELS </Link>
-    //         <Link to= "/" class='button-89 m-5' role="button"> SOCIAL </Link>
-    //         <Link to= "/" class='button-89 m-5' role="button"> LOGIN </Link>
-    //     </div>
-    //   </div>
-    // </>
     <>
     
     <nav class="bg-white dark:bg-gray-300 sticky w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600 ">
