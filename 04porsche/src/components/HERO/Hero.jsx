@@ -1,8 +1,8 @@
 import React, { useEffect, useRef } from 'react'
 import {motion,useInView,useAnimation} from "framer-motion"
-import {Link, NavLink} from 'react-router-dom'
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
+import {Link, NavLink} from 'react-router-dom' 
+import { Swiper, SwiperSlide } from 'swiper/react'
+import 'swiper/css'
 import { Navigation, Pagination, Scrollbar, A11y, Autoplay, Keyboard, EffectCoverflow, Parallax } from 'swiper/modules';
 
 import 'swiper/css/autoplay'

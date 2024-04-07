@@ -3,7 +3,6 @@ import { TodoProvider } from './Contexts/todoContext'
 import './App.css'
 import TodoForm from './components/TodoForm'
 import TodoItem from './components/TodoItems'
-
 function App() {
   const [todos, setTodos] = useState([])
   const addTodo = (todo)=>{
@@ -17,8 +16,7 @@ function App() {
   }
   const toggleTodo = (id)=>{
     setTodos((prev)=> prev.map((prevTodo)=> prevTodo === id ? {...prevTodo, completed:!prevTodo.completed} : prevTodo))
-  }cxx
-  
+  }
 
   useEffect(() => {
     const todos = JSON.parse(localStorage.getItem("todos"))

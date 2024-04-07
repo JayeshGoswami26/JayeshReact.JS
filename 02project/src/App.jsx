@@ -35,8 +35,8 @@ function App() {
 
   return (
     <>
-      <div className='w-full max-w-md mx-auto p-5  flex content-center items-center h-screen'>
-        <div className='box-bg shadow-2xl shadow-gray-700 p-5 rounded-xl text-center divHOVER'>
+      <div className='max-w-md mx-auto p-5 container  flex content-center items-center h-screen'>
+        <div className='box-bg shadow-2xl container shadow-gray-700 p-5 rounded-xl text-center divHOVER'>
           <h1 className='text-4xl text-center p-5'> PASSWORD GENERATOR </h1>
           <br />
           

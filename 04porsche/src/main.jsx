@@ -33,6 +33,7 @@ const router = createBrowserRouter(
         <Route path='Models' element={<Models/>} />
         <Route path='Social' element={<Social/>} />
         <Route path='Login' element={<Login/>} />
+        <Route path='Signin' element={<Signin/>} />
     </Route>
   )
 )
